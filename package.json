@@ -1,0 +1,24 @@
+{
+  "name": "rsaplaywright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/WebAPIPart1.spec.js --headed",
+    "regression": "npx playwright test",
+    "WebTest": "npx playwright test --grep @Web",
+    "APITest": "npx playwright test --grep @API --config=playwright.config1.js --project=Chrome",
+    "TestWithPlayWright": "npx playwright test --grep @Web --reporter=line,allure-playwright"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.6.1",
+    "allure-playwright": "^3.0.5"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 28 10:24:01 IST 2024","Mon Oct 28 10:24:02 IST 2024","1311","Chrome","HandlingUIComponents.spec.js","","","","@Web Window handle",""
+"passed","Mon Oct 28 10:23:55 IST 2024","Mon Oct 28 10:24:01 IST 2024","5793","Chrome","HandlingUIComponents.spec.js","","","","@Web UI Components handling",""

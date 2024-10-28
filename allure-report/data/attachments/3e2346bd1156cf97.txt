@@ -1,0 +1,2 @@
+Is radio button checked : true
+Is terms checkbox checked : true
